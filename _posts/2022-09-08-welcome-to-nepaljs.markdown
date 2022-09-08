@@ -11,5 +11,7 @@ Facebook: [https://www.facebook.com/groups/javascriptdevelopersnepal](https://ww
 
 Github: [https://www.github.com/nepal-js](https://www.github.com/nepal-js)
 
+Twitter: [https://www.twitter.com/nepaljavascript](https://www.twitter.com/nepaljavascript)
+
 Meetup group: [https://www.meetup.com/javascript-developers-nepal-meetup-group/](https://www.meetup.com/javascript-developers-nepal-meetup-group/)
 
