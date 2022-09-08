@@ -5,7 +5,7 @@ date:   2022-09-08 18:00:00 +0545
 categories: jekyll update
 ---
 
-Welcome to the NepalJS. If you’re in Nepal and into JavaScript, you need to join our community.
+Welcome to the NepalJS community. If you’re in Nepal and into JavaScript, you need to join our community.
 
 Facebook: [https://www.facebook.com/groups/javascriptdevelopersnepal](https://www.facebook.com/groups/javascriptdevelopersnepal)
 
