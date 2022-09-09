@@ -10,33 +10,46 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
+ 
 
-
-
-  
-
-<table>
-  <tr>    
-    <td><img src="https://github.com/{{ page.github }}.png?size=120" alt="{{ name}}" title="{{ name }} - {{ position }} @ {{ company }}" />
-    </td>
-    <td></td>
-  </tr>
-  <tr>    
-    <th>Name</th><td>{{ page.name }}</td>
-  </tr>
-  <tr>
-    <th>Position</th><td>{{ page.position }}</td>
-  </tr>
-  <tr>
-    <th>Company</th><td>{{ page.company }}</td>
-  </tr>
-  <tr>
-    <th>Location</th><td>{{ page.location }}</td>
-  </tr>
-  <tr>
-    <th>Interests</th><td>{{ page.interests }}</td>
-  </tr>
-</table>
-
-
+  <table>
+    <tr>    
+      <td><img src="https://github.com/{{ page.github }}.png?size=120" alt="{{ name}}" title="{{ name }} - {{ position }} @ {{ company }}" />
+      </td>
+      <td></td>
+    </tr>
+    <tr>    
+      <th>Name</th><td>{{ page.name }}</td>
+    </tr>
+    <tr>
+      <th>Position</th><td>{{ page.position }}</td>
+    </tr>
+    <tr>
+      <th>Company</th><td>{{ page.company }}</td>
+    </tr>
+    <tr>
+      <th>Location</th><td>{{ page.location }}</td>
+    </tr>
+    <tr>
+      <th>Interests</th><td>{{ page.interests }}</td>
+    </tr>
+    <tr>
+      <th>Github</th>
+      <td><a href="https://www.github.com/{{ page.github }}">https://www.github.com/{{ page.github }}</a></td>
+    </tr>
+    <tr>
+      <th>Twitter</th>
+      <td>
+	<a href="https://www.twitter.com/{{ page.twitter }}">https://www.twitter.com/{{ page.twitter }}</a>
+      </td>
+    </tr>
+    <tr>
+      <th>LinkedIn</th>
+      <td><a href="https://www.linkedin.com/in/{{ page.linkedin }}">https://www.linkedin.com/in/{{ page.linkedin }}</a></td>
+    </tr>     
+    <tr>
+      <th>Website</th>
+      <td><a href="{{ page.website }}">{{ page.website }}</a></td>
+    </tr>     
+  </table>
 </article>
