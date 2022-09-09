@@ -22,3 +22,7 @@ About our company details
 * Benefit 1
 * Benefit 2
 
+### How to Apply?
+
+Email a cover letter and resume to foo@bar.com
+
