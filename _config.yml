@@ -57,5 +57,5 @@ plugins:
 collections:
   members:
     people: true
-    permalink: /:collection/:name
+    permalink: /members/:name
     output: true

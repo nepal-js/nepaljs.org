@@ -4,9 +4,12 @@ title: Members
 permalink: /members/
 ---
 
-{% for member in site.members %}
-  <img src="https://github.com/{{ member.github }}.png?size=120" alt="{{member.name}}" title="{{ member.name }} - {{ member.position }} @ {{member.company}}"/>
-  <a href="{{ member.url }}">
-    {{ member.name }}
-  </a>
+<div class="grid">
+
+{% randoms site.members members %}
+{% for member in members  %}
+ <a href="{{member.slug}}">
+	<img src="https://github.com/{{ member.github }}.png?size=80" class="grid-img" alt="{{member.name}}" title="{{ member.name }} - {{ member.position }} @ {{member.company}}"/>
+	</a>
 {% endfor %}
+</div>

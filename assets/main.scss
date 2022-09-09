@@ -1,0 +1,20 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+
+
+.grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: left;
+    justify-items: left;
+    img.grid-img {
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+	max-width: 100%;
+    }
+}

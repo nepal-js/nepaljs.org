@@ -1,0 +1,18 @@
+/**
+ * Reset some basic elements
+ */
+
+.grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 60px;
+    align-items: center;
+    justify-items: center;
+    img.grid-img {
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+	max-width: 100%;
+	margin: 30px;
+	padding: 20px 30px 20px 30px;
+    }
+}
