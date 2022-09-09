@@ -55,6 +55,10 @@ plugins:
 #collections_dir: collections
 
 collections:
+  jobs:
+    permalink: /jobs/:name
+    output: true
+    people: true
   members:
     people: true
     permalink: /members/:name

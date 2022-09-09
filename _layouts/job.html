@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<article class="job">
+
+  <header class="job-header">
+    <h1 class="post-title">{{ page.job_title | escape }}</h1>
+  </header>
+
+
+<table>
+  <tr>    
+    <th>Title</th>
+    <td>{{ page.job_title }}</td>
+  </tr>
+  <tr>
+    <th>Company</th>
+    <td>{{ page.company }}</td>
+  </tr>
+  <tr>
+    <th>Level</th>
+    <td>{{ page.level }}</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>{{ page.location }}</td>
+  </tr>
+  <tr>
+    <th>Remote</th><td>{{ page.remote }}</td>
+  </tr>
+  <tr>
+    <th>Salary</th><td>{{ page.salary_from }} - {{ page.salary_to }}</td>
+  </tr>
+</table>
+
+  <div class="post-content">
+    {{ content }}
+  </div> 
+
+</article>
