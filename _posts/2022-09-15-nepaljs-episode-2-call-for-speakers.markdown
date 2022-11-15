@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "NepalJS Meetup - Episode #1 - Call for speakers"
-date:   2022-09-11 00:00:00 +0545
+title:  "NepalJS Meetup - Episode #2 - Call for speakers"
+date:   2022-11-15 00:00:00 +0545
 categories: meetup
 ---
 
